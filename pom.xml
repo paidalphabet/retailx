@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.retailx</groupId>
+    <artifactId>retail</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>retailx-entity</module>
+        <module>retailx-application</module>
+    </modules>
+    <packaging>pom</packaging>
+    <properties>
+        <jdk.version>1.7</jdk.version>
+        <spring.version>4.1.1.RELEASE</spring.version>
+        <spring.security.version>4.0.3.RELEASE</spring.security.version>
+        <spring.support>2.0.8</spring.support>
+        <jstl.version>1.2</jstl.version>
+        <junit.version>4.11</junit.version>
+        <logback.version>1.0.13</logback.version>
+        <jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
+        <spring.tiles.version>3.0.5</spring.tiles.version>
+        <dom4j.version>1.6.1</dom4j.version>
+        <mysql.connector.version>5.1.9</mysql.connector.version>
+        <hibernate.version>4.3.6.Final</hibernate.version>
+        <velocity.version>1.7</velocity.version>
+        <cglib.version>2.2.2</cglib.version>
+        <mysql.version>5.1.31</mysql.version>
+        <joda-time.version>2.3</joda-time.version>
+        <testng.version>6.9.4</testng.version>
+        <mockito.version>1.10.19</mockito.version>
+        <h2.version>1.4.187</h2.version>
+        <dbunit.version>2.2</dbunit.version>
+        <json-simple.version>1.1.1</json-simple.version>
+        <gson.version>2.3.1</gson.version>
+        <logback.version>1.0.13</logback.version>
+        <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+        <plugin>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <version>2.2</version>
+            <configuration>
+                <path>/retail</path>
+            </configuration>
+        </plugin>
+        </plugins>
+        </pluginManagement>
+    </build>
+</project>

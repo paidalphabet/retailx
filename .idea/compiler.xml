@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="retailx-application" />
+        <module name="retailx-entity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="retail" target="1.5" />
+      <module name="retailx-application" target="1.7" />
+      <module name="retailx-entity" target="1.8" />
+      <module name="retailxentity" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
