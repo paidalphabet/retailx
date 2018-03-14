@@ -81,4 +81,9 @@ public class UserSession extends BaseObject {
 	public void setIsAuthenticated(String isAuthenticated) {
 		this.isAuthenticated = isAuthenticated;
 	}
+
+	@Override
+	public String getRequestPath() {
+		return "/usersession/";
+	}
 }

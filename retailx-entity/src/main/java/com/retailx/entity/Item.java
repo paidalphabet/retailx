@@ -56,4 +56,9 @@ public class Item extends BaseObject{
                 ", quantity=" + quantity + 
                 ", total=" + total + '}';
     }
+
+    @Override
+    public String getRequestPath() {
+        return "/item/";
+    }
 }

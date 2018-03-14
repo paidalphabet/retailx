@@ -62,6 +62,6 @@ public class Category extends BaseObject implements Serializable  {
 
     @Override
     public String getRequestPath() {
-        return null;
+        return "/category/";
     }
 }

@@ -69,4 +69,9 @@ public class Supplier extends BaseObject implements Serializable {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    @Override
+    public String getRequestPath() {
+        return "/supplier/";
+    }
 }

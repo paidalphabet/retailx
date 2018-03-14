@@ -1,6 +1,9 @@
 package com.retailx.service;
 
 import com.retailx.entity.BaseObject;
+import com.retailx.entity.PersistableObject;
+
+import java.util.List;
 
 public interface BaseService {
 	
@@ -14,4 +17,5 @@ public interface BaseService {
 	
 	public void deleteObject(final BaseObject object);
 
+	public List<PersistableObject> getObjects(Class clazz);
 }

@@ -45,7 +45,10 @@ public class Payment extends BaseObject{
     public void setPayable(double payable) {
         this.payable = payable;
     }
-    
-    
-    
+
+
+    @Override
+    public String getRequestPath() {
+        return "/payment/";
+    }
 }

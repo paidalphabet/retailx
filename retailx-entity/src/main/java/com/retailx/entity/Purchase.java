@@ -124,4 +124,8 @@ public class Purchase extends BaseObject implements Serializable {
                 ", date=" + date + '}';
     }
 
+    @Override
+    public String getRequestPath() {
+        return "/purchase/";
+    }
 }

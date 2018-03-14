@@ -136,4 +136,9 @@ public class Invoice extends BaseObject implements Serializable {
     public void setDate(String date) {
         this.date = date;
     }
+
+    @Override
+    public String getRequestPath() {
+        return "/invoice/";
+    }
 }
