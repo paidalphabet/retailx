@@ -21,11 +21,13 @@ public class RequestDispatcher implements Filter {
            String applicationName = request.getContextPath();
            String path = request.getServletPath();
            Class className = getClassFromPath(path);
-
-           request.setAttribute("class", className);
-           javax.servlet.RequestDispatcher dispatcher = request.getRequestDispatcher("/common/");
-           dispatcher.forward(servletRequest, servletResponse);
+           if(className != null) {
+               request.setAttribute("class", className);
+               javax.servlet.RequestDispatcher dispatcher = request.getRequestDispatcher("/common/");
+               dispatcher.forward(servletRequest, servletResponse);
+           }
        }
+       filterChain.doFilter(servletRequest, servletResponse);
     }
 
     private Class getClassFromPath(String path) {
