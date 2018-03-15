@@ -125,5 +125,9 @@ public class Sale extends BaseObject implements Serializable {
                 ", total=" + total + 
                 ", date=" + date + '}';
     }
-    
+
+    @Override
+    public String getRequestPath() {
+        return "/sale/";
+    }
 }

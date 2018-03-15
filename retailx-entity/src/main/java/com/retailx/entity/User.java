@@ -146,4 +146,8 @@ public class User extends BaseObject {
 		this.password = password;
 	}
 
+	@Override
+	public String getRequestPath() {
+		return "/user/";
+	}
 }

@@ -1,8 +1,11 @@
 package com.retailx.service;
 
 import com.retailx.entity.BaseObject;
+import com.retailx.entity.PersistableObject;
 import com.retailx.spring.dao.CommonDao;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.List;
 
 public abstract class AbstractService  implements BaseService{
 	
@@ -23,7 +26,7 @@ public abstract class AbstractService  implements BaseService{
 	public void save(final BaseObject object){
 		basedao.saveBusinessObject(object);
 	}
-	
+
 	public BaseObject update(final BaseObject object){
 		basedao.updateBusinessObject(object);
 		return object;
@@ -33,6 +36,8 @@ public abstract class AbstractService  implements BaseService{
 		basedao.deleteObject(object);
 	}
 
-	
+	public List<PersistableObject> getObjects(Class clazz) {
+		return  basedao.getObjects(clazz);
+	}
 
 }

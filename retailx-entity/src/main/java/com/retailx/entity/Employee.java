@@ -129,5 +129,9 @@ public class Employee extends BaseObject implements Serializable {
     public void setType(String type) {
         this.type = type;
     }
-    
+
+    @Override
+    public String getRequestPath() {
+        return "/employee/";
+    }
 }

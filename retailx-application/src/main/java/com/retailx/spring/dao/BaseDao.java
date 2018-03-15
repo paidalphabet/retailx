@@ -1,6 +1,9 @@
 package com.retailx.spring.dao;
 
 import com.retailx.entity.BaseObject;
+import com.retailx.entity.PersistableObject;
+
+import java.util.List;
 
 public interface BaseDao{
 	
@@ -13,4 +16,6 @@ public interface BaseDao{
 	public Object saveBusinessObject(final BaseObject object);
 	
 	public void deleteObject(final BaseObject object);
+
+    public List<PersistableObject> getObjects(Class clazz);
 }

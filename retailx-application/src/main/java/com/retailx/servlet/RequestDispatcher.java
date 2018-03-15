@@ -1,6 +1,6 @@
 package com.retailx.servlet;
 
-import com.retailx.loaders.EntityClassLoaderHelper.EntityClassLoaderHelper;
+import com.retailx.loaders.EntityClassLoaderHelper;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -21,10 +21,13 @@ public class RequestDispatcher implements Filter {
            String applicationName = request.getContextPath();
            String path = request.getServletPath();
            Class className = getClassFromPath(path);
-           javax.servlet.RequestDispatcher dispatcher = request.getRequestDispatcher("common");
-
-           dispatcher.forward(servletRequest, servletResponse);
+           if(className != null) {
+               request.setAttribute("class", className);
+               javax.servlet.RequestDispatcher dispatcher = request.getRequestDispatcher("/common/");
+               dispatcher.forward(servletRequest, servletResponse);
+           }
        }
+       filterChain.doFilter(servletRequest, servletResponse);
     }
 
     private Class getClassFromPath(String path) {

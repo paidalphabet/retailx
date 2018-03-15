@@ -126,4 +126,9 @@ public class Product extends BaseObject implements Serializable {
                 ", category=" + category + 
                 ", supplier=" + supplier + '}';
     }
+
+    @Override
+    public String getRequestPath() {
+        return "/product/";
+    }
 }
