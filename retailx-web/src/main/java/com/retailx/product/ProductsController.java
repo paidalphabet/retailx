@@ -1,5 +1,5 @@
 package com.retailx.product;
 
-@Controller
+//@Controller
 public class ProductsController {
 }
