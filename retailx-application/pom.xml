@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <parent>
         <artifactId>retail</artifactId>
         <groupId>com.retailx</groupId>
@@ -12,36 +13,21 @@
     <artifactId>retailx-application</artifactId>
     <packaging>war</packaging>
     <dependencies>
-
-        <!-- https://mvnrepository.com/artifact/org.reflections/reflections -->
-        <dependency>
-            <groupId>org.reflections</groupId>
-            <artifactId>reflections</artifactId>
-            <version>0.9.10</version>
-        </dependency>
         <dependency>
             <groupId>com.retailx</groupId>
             <artifactId>retailx-entity</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.reflections/reflections -->
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>${reflections.version}</version>
+        </dependency>
     </dependencies>
-    <repositories>
-        <repository>
-            <id>jboss-public-reposices</id>
-            <url>http://mavenitory-group</id>
-            <name>JBoss Public Repository Group</name>
-            <url>http://repository.jboss.org/nexus/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>google-api-servrepo.google-api-java-client.googlecode.com/hg</url>
-        </repository>
-        <repository>
-            <id>repository.jboss.org-public</id>
-            <name>JBoss.org Maven repository</name>
-            <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
-        </repository>
-    </repositories>
-
+    <properties>
+        <reflections.version>0.9.10</reflections.version>
+    </properties>
     <build>
         <finalName>retailx</finalName>
         <plugins>
