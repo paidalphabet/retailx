@@ -2,104 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba13a797-6147-4243-a613-e834384085a0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/retailx-web.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/controller-servlet.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/allemployees.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/homePage.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/product/allProducts.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/product/productDetails.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/registration.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/success.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/css/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/css/style_new.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/Thumbs.db" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/bg.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/box.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/bullet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/bullet_a.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/comments.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/csscreme.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/ist1_3956659_jigsaw_puzzle.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/logo.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/pic.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/pic1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/pic2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/pic2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/pic3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/pic3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/pic4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/pic5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/print.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/read_more.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/images/user-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/js/cart/shopping-cart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/js/login.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_187.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_addons_junit_addons_1_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_31.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dbunit_dbunit_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_6_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jadira_usertype_usertype_core_3_0_0_CR1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jadira_usertype_usertype_spi_3_0_0_CR1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_joda_joda_money_0_6.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_9_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__poi_poi_2_5_1_final_20040804.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_6_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xmlParserAPIs_2_6_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/retailx-application/pom.xml" afterPath="$PROJECT_DIR$/retailx-application/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/retailx-application/retailx-application.iml" afterPath="$PROJECT_DIR$/retailx-application/retailx-application.iml" />
-      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java" afterPath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java" />
-      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java" afterPath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/retailx-application/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" afterPath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" />
+      <change beforePath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,47 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EntityClassLoaderHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestDispatcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-              <folding>
-                <element signature="e#1255#1256#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retailx-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shopping-cart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/js/cart/shopping-cart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -165,29 +37,53 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="1615">
+              <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductsController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controller-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/controller-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="374">
+              <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-application/pom.xml">
+      <file leaf-file-name="ApplicationConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="30" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="257">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,71 +91,9 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+            <state relative-caret-position="550">
+              <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DispatcherServlet.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="30" />
-              <folding>
-                <marker date="1520686892388" expanded="true" signature="0:104" ph="/.../" />
-                <marker date="1520686892388" expanded="false" signature="155:1957" ph="..." />
-                <marker date="1520686892388" expanded="true" signature="4847:4854" ph="{}" />
-                <marker date="1520686892388" expanded="false" signature="4929:4940" ph=" { " />
-                <marker date="1520686892388" expanded="false" signature="4969:4975" ph=" }" />
-                <marker date="1520686892388" expanded="true" signature="5055:5128" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="5208:5281" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="5381:5474" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="5550:5619" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="5711:5796" ph="{...}" />
-                <marker date="1520686892388" expanded="false" signature="5865:5876" ph=" { " />
-                <marker date="1520686892388" expanded="false" signature="5923:5929" ph=" }" />
-                <marker date="1520686892388" expanded="false" signature="5987:5998" ph=" { " />
-                <marker date="1520686892388" expanded="false" signature="6027:6033" ph=" }" />
-                <marker date="1520686892388" expanded="true" signature="6097:6510" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="6579:7190" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="7256:7911" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="7976:8619" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="8686:9766" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="9833:10913" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="10990:12222" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="12301:13058" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="13123:14173" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="14240:14907" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="14955:15087" ph="{...}" />
-                <marker date="1520686892388" expanded="false" signature="15146:15157" ph=" { " />
-                <marker date="1520686892388" expanded="false" signature="15187:15193" ph=" }" />
-                <marker date="1520686892388" expanded="true" signature="15290:15633" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="15738:17105" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="17194:17275" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="17381:19506" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="19613:22407" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="22509:22632" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="22823:24089" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="24172:24498" ph="{...}" />
-                <marker date="1520686892388" expanded="false" signature="24321:24382" ph="getLocale() → {" />
-                <marker date="1520686892388" expanded="false" signature="24476:24491" ph="}" />
-                <marker date="1520686892388" expanded="true" signature="24602:25404" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="25470:25754" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="25848:26407" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="26518:27096" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="27185:27769" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="27927:29035" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="29155:30445" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="30532:30600" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="30741:31102" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="31270:31416" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="31610:31850" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="31957:33091" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="33161:33357" ph="{...}" />
-                <marker date="1520686892388" expanded="true" signature="33370:33755" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -267,8 +101,18 @@
       <file leaf-file-name="CommonController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="408">
               <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/service/BaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -281,6 +125,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -305,6 +150,7 @@
       <find>controllerServlet</find>
       <find>ControllerServl</find>
       <find>getClass</find>
+      <find>RequestDispatcher</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -324,14 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/framework/session/UserSessionHolder.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestLoggingPlugin.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/SessionPlugin.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/service/UserDao.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/user/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/service/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/framework/session/UserSessionWrapperImpl.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/retailx-entity/pom.xml" />
@@ -362,7 +200,6 @@
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/UserSession.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper/EntityClassLoaderHelper.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/service/BaseService.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/service/AbstractService.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/BaseDao.java" />
@@ -370,11 +207,20 @@
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java" />
-        <option value="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/java/ProductsController.java" />
-        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.scala" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/Controller.java" />
+        <option value="$PROJECT_DIR$/retailx-web/pom.xml" />
         <option value="$PROJECT_DIR$/retailx-application/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/com/retailx/config/PropertiesConfig.java" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/PropertiesConfig.java" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/DefaultUriBuilderFactory.java" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java" />
       </list>
     </option>
   </component>
@@ -399,8 +245,12 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="retail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="retailx-application" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="retailx-application" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -411,15 +261,26 @@
           <item name="retailx-entity" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="retailx-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="retailx-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="9.0" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="131" />
-    <option name="y" value="357" />
     <option name="width" value="1271" />
-    <option name="height" value="649" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -436,44 +297,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
               <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
               <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
               <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
               <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
               <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -481,42 +343,97 @@
               <item name="retailx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
               <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
               <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="retail" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retail" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
               <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="retailx" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/retailx-web/src/main/java" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Scala" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.retailx.entity" />
-      <recent name="com.retailx.loaders.EntityClassLoaderHelper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/retailx-entity/src/main/java" />
+      <recent name="$PROJECT_DIR$/retailx-entity/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/retailx-web/src/main" />
@@ -525,9 +442,11 @@
       <recent name="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/user" />
       <recent name="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/retailx-entity/src/main/java" />
-      <recent name="$PROJECT_DIR$/retailx-entity/src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.retailx.config" />
+      <recent name="com.retailx.product" />
+      <recent name="com.retailx.entity" />
+      <recent name="com.retailx.loaders.EntityClassLoaderHelper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -542,7 +461,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.retail-web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -584,7 +503,33 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="retail" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="retail-application" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+                <option value="tomcat:run" />
+                <option value="-Dmaven.tomcat.port=9050" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/retailx-application" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="retail-web" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -604,7 +549,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/retailx-application" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/retailx-web" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -649,6 +594,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Maven.retail-application" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.retail-web" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -676,33 +630,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="131" y="357" width="1309" height="747" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1973165" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19692533" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32598424" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20994475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32755905" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3968504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -748,62 +703,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/GeneratedValue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/GenerationType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/ObjectFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/resources/controller-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/controller-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/ApplicationContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/configuration/AppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.class" />
     <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/configuration/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -818,13 +718,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/http/HttpStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/http/HttpStatus.class" />
     <entry file="file://$PROJECT_DIR$/retailx-application/src/main/resources/com.retailx.servlet.RequestDispatcher.kt" />
     <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/framework/session/HttpSessionWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -840,13 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/web/util/UrlPathHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/web/util/UrlPathHelper.class" />
     <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -917,21 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="108" lean-forward="false" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="99" column="18" lean-forward="false" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -946,13 +819,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Class.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="180" column="13" lean-forward="false" selection-start-line="180" selection-start-column="13" selection-end-line="180" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Class.class" />
     <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/framework/session/HttpSessionWrapperImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -985,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,21 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,34 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,8 +888,8 @@
         <state relative-caret-position="425">
           <caret line="29" column="59" lean-forward="false" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
           <folding>
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="false" />
+            <element signature="e#1324#1325#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1077,107 +898,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.1.RELEASE/spring-webmvc-4.1.1.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+    <entry file="file://$PROJECT_DIR$/retailx-entity/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <marker date="1520686892388" expanded="true" signature="0:104" ph="/.../" />
-            <marker date="1520686892388" expanded="false" signature="155:1957" ph="..." />
-            <marker date="1520686892388" expanded="true" signature="4847:4854" ph="{}" />
-            <marker date="1520686892388" expanded="false" signature="4929:4940" ph=" { " />
-            <marker date="1520686892388" expanded="false" signature="4969:4975" ph=" }" />
-            <marker date="1520686892388" expanded="true" signature="5055:5128" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="5208:5281" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="5381:5474" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="5550:5619" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="5711:5796" ph="{...}" />
-            <marker date="1520686892388" expanded="false" signature="5865:5876" ph=" { " />
-            <marker date="1520686892388" expanded="false" signature="5923:5929" ph=" }" />
-            <marker date="1520686892388" expanded="false" signature="5987:5998" ph=" { " />
-            <marker date="1520686892388" expanded="false" signature="6027:6033" ph=" }" />
-            <marker date="1520686892388" expanded="true" signature="6097:6510" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="6579:7190" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="7256:7911" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="7976:8619" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="8686:9766" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="9833:10913" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="10990:12222" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="12301:13058" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="13123:14173" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="14240:14907" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="14955:15087" ph="{...}" />
-            <marker date="1520686892388" expanded="false" signature="15146:15157" ph=" { " />
-            <marker date="1520686892388" expanded="false" signature="15187:15193" ph=" }" />
-            <marker date="1520686892388" expanded="true" signature="15290:15633" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="15738:17105" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="17194:17275" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="17381:19506" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="19613:22407" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="22509:22632" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="22823:24089" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="24172:24498" ph="{...}" />
-            <marker date="1520686892388" expanded="false" signature="24321:24382" ph="getLocale() → {" />
-            <marker date="1520686892388" expanded="false" signature="24476:24491" ph="}" />
-            <marker date="1520686892388" expanded="true" signature="24602:25404" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="25470:25754" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="25848:26407" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="26518:27096" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="27185:27769" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="27927:29035" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="29155:30445" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="30532:30600" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="30741:31102" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="31270:31416" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="31610:31850" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="31957:33091" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="33161:33357" ph="{...}" />
-            <marker date="1520686892388" expanded="true" signature="33370:33755" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/retailx-application/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="30" selection-end-column="29" />
+        <state relative-caret-position="17">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/controller-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/retailx-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="374">
+          <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/DefaultUriBuilderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,7 +1098,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

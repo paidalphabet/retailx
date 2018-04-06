@@ -14,7 +14,7 @@
     </modules>
     <packaging>pom</packaging>
     <properties>
-        <jdk.version>1.7</jdk.version>
+        <jdk.version>1.8</jdk.version>
         <spring.version>4.1.1.RELEASE</spring.version>
         <spring.security.version>4.0.3.RELEASE</spring.security.version>
         <spring.support>2.0.8</spring.support>
@@ -38,9 +38,24 @@
         <gson.version>2.3.1</gson.version>
         <logback.version>1.0.13</logback.version>
         <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
+        <hsqldb.version>1.8.0.10</hsqldb.version>
     </properties>
-    <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>2.2.11</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-core</artifactId>
+                <version>2.2.11</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-impl</artifactId>
+                <version>2.2.11</version>
+            </dependency>
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
@@ -136,7 +151,12 @@
                 <artifactId>gson</artifactId>
                 <version>${gson.version}</version>
             </dependency>
-
+            <!-- https://mvnrepository.com/artifact/hsqldb/hsqldb -->
+            <dependency>
+                <groupId>hsqldb</groupId>
+                <artifactId>hsqldb</artifactId>
+                <version>${hsqldb.version}</version>
+            </dependency>
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
@@ -224,7 +244,6 @@
              -->
     </dependencies>
 
-    </dependencyManagement>
 
     <build>
         <pluginManagement>
@@ -235,6 +254,10 @@
             <version>2.2</version>
             <configuration>
                 <path>/retail</path>
+                <systemProperties>
+
+                </systemProperties>
+                <!--  -addmods java.se.ee -->
             </configuration>
         </plugin>
         </plugins>
