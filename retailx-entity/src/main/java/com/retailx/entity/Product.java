@@ -1,5 +1,7 @@
 package com.retailx.entity;
 
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -14,50 +16,46 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "products")
 public class Product extends BaseObject implements Serializable {
- 
+
+    public static final String PRODUCT_TYPE_STANDARD = "Standard";
+
+    public static final String PRODUCT_TYPE_SERVICE = "Service";
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private long id;
+
     @Column(name = "name")
     private String productName;
+
     @Column(name = "price")
     private double price;
-    @Column(name = "quantity")
-    private double quantity;
+
     @Column(name = "description")
     private String description;
-    
+
+    @Column(name = "product_code")
+    private String productCode;
+
+    @Column(name = "product_type")
+    private String productType = Product.PRODUCT_TYPE_STANDARD;
+
+    @Column(name = "cost_price")
+    private double costPrice;
+
+    @Column(name = "tax")
+    private String tax;
+
     @OneToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "categoryId")
     private Category category;
-    
+
     @OneToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "supplierId")
     private Supplier supplier;
 
     public Product() {
-    }
-
-    public Product(long id, String productName, double price, 
-            double quantity, String description, Category category, Supplier supplier) {
-        this.id = id;
-        this.productName = productName;
-        this.price = price;
-        this.quantity = quantity;
-        this.description = description;
-        this.category = category;
-        this.supplier = supplier;
-    }
-
-    public Product(String productName, double price, 
-            double quantity, String description, Category category, Supplier supplier) {
-        this.productName = productName;
-        this.price = price;
-        this.quantity = quantity;
-        this.description = description;
-        this.category = category;
-        this.supplier = supplier;
     }
 
     public long getId() {
@@ -84,14 +82,6 @@ public class Product extends BaseObject implements Serializable {
         this.price = price;
     }
 
-    public double getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(double quantity) {
-        this.quantity = quantity;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -99,6 +89,40 @@ public class Product extends BaseObject implements Serializable {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public String getProductCode() {
+        return productCode;
+    }
+
+    public void setProductCode(String productCode) {
+        this.productCode = productCode;
+    }
+
+    public String getProductType() {
+        return productType;
+    }
+
+    public void setProductType(String productType) {
+        this.productType = productType;
+    }
+
+    public double getCostPrice() {
+        return costPrice;
+    }
+
+    public void setCostPrice(double costPrice) {
+        this.costPrice = costPrice;
+
+    }
+
+    public String getTax() {
+        return tax;
+    }
+
+    public void setTax(String tax) {
+        this.tax = tax;
+    }
+
 
     public Category getCategory() {
         return category;
@@ -114,17 +138,6 @@ public class Product extends BaseObject implements Serializable {
 
     public void setSupplier(Supplier supplier) {
         this.supplier = supplier;
-    }
-
-    @Override
-    public String toString() {
-        return "Product{" + "id=" + id + 
-                ", productName=" + productName + 
-                ", price=" + price + 
-                ", quantity=" + quantity + 
-                ", description=" + description + 
-                ", category=" + category + 
-                ", supplier=" + supplier + '}';
     }
 
     @Override

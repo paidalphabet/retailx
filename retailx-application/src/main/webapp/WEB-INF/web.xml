@@ -102,8 +102,12 @@
 
 	<filter-mapping>
 		<filter-name>RequestDispatcher</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>/data/</url-pattern>
 	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>/index</welcome-file>
+	</welcome-file-list>
 
 
 </web-app>
