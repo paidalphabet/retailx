@@ -2,13 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba13a797-6147-4243-a613-e834384085a0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/HttpRequestUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/controller/HomeController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/http/request/ReturnStub.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/header.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/home.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/imports.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/sidebar.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/chart.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/demo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/light-bootstrap-dashboard.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/pace.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/style.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/fonts/nucleo-icons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/fonts/nucleo-icons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/fonts/nucleo-icons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/fonts/nucleo-icons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/fonts/nucleo-icons.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/apple-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/default-avatar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/face-0.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/face-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/face-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/face-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/face-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/face-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/face-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/face-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/faces/tim_vector.jpe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/full-screen-image-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/loading-bubbles.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/mask.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/new_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/sidebar-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/sidebar-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/sidebar-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/sidebar-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/sidebar-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/img/tim_80x80.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/ajax-common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/core/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/core/jquery.3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/core/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/demo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/light-bootstrap-dashboard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/plugins/bootstrap-datepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/plugins/bootstrap-notify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/plugins/bootstrap-switch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/plugins/chartist.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/js/plugins/nouislider.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_alerts.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_bootstrap-switch.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_cards.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_chartist.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_checkbox-radio-switch.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_dropdown.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_footers.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_inputs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_misc.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_mixins.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_navbars.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_partial-nucleo-icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_responsive.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_sidebar-and-main-panel.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_tables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_typography.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/_variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_cards.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_chartist.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_icons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_inputs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_labels.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_morphing-buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_navbars.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_social-buttons.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_tabs.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_transparency.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/mixins/_vendor-prefixes.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/plugins/_animate.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/lbd/plugins/_datetime-picker.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/sass/light-bootstrap-dashboard.scss" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/pom.xml" afterPath="$PROJECT_DIR$/retailx-application/pom.xml" />
       <change beforePath="$PROJECT_DIR$/retailx-application/retailx-application.iml" afterPath="$PROJECT_DIR$/retailx-application/retailx-application.iml" />
-      <change beforePath="$PROJECT_DIR$/retailx-web/pom.xml" afterPath="$PROJECT_DIR$/retailx-web/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java" afterPath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java" />
-      <change beforePath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" afterPath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" />
-      <change beforePath="$PROJECT_DIR$/retailx-web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/retailx-web/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java" afterPath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/homePage.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/product/productDetails.jsp" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/product/productDetails.jsp" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/bootstrap.css" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/retailx-application/src/main/webapp/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/banner.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/bg.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/box.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/bullet.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/bullet_a.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/comments.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/csscreme.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/ist1_3956659_jigsaw_puzzle.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/logo.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/pic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/pic1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/pic2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/pic2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/pic3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/pic3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/pic4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/pic5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/print.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/read_more.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-application/src/main/webapp/images/user-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/retailx-entity/pom.xml" afterPath="$PROJECT_DIR$/retailx-entity/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/retailx-entity/retailx-entity.iml" afterPath="$PROJECT_DIR$/retailx-entity/retailx-entity.iml" />
+      <change beforePath="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Product.java" afterPath="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Product.java" />
+      <change beforePath="$PROJECT_DIR$/retailx-web/retailx-web.iml" afterPath="$PROJECT_DIR$/retailx-web/retailx-web.iml" />
+      <change beforePath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java" afterPath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/config/ApplicationConfig.java" />
+      <change beforePath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/HttpRequestUtil.java" afterPath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/config/HttpRequestUtil.java" />
+      <change beforePath="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" afterPath="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/product/ProductsController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,21 +140,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-web/pom.xml">
+      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="5474">
+              <caret line="322" column="9" lean-forward="false" selection-start-line="322" selection-start-column="9" selection-end-line="322" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/sidebar.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="54" column="71" lean-forward="false" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ProductsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/product/ProductsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="248">
+              <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,160 +172,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <file leaf-file-name="ReturnStub.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/http/request/ReturnStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+            <state relative-caret-position="118">
+              <caret line="78" column="18" lean-forward="false" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
               <folding>
-                <marker date="1522860125259" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1522860125259" expanded="false" signature="162:720" ph="..." />
-                <marker date="1522860125259" expanded="false" signature="1113:1124" ph=" { " />
-                <marker date="1522860125259" expanded="false" signature="1144:1150" ph=" }" />
-                <marker date="1522860125259" expanded="false" signature="1214:1225" ph=" { " />
-                <marker date="1522860125259" expanded="false" signature="1246:1252" ph=" }" />
-                <marker date="1522860125259" expanded="true" signature="1374:1430" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="1509:1568" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="1678:1737" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="1831:1902" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="2048:2752" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="2902:4254" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="4336:4562" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="4625:4961" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="5057:5515" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="5576:6653" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="6738:7343" ph="{...}" />
-                <marker date="1522860125259" expanded="true" signature="7429:8003" ph="{...}" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1416#1417#0" expanded="true" />
+                <element signature="e#1447#1448#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1595#1596#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#1667#1668#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Product.java">
+      <file leaf-file-name="imports.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/imports.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="132" column="5" lean-forward="false" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-              <folding>
-                <element signature="e#3324#3325#0" expanded="true" />
-                <element signature="e#3358#3359#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EntityClassLoaderHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpRequestUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/HttpRequestUtil.java">
+      <file leaf-file-name="ajax-common.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/js/ajax-common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="488">
+              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="allProducts.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/product/allProducts.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractEnvironment.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.1.RELEASE/spring-core-4.1.1.RELEASE.jar!/org/springframework/core/env/AbstractEnvironment.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="290" column="0" lean-forward="false" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-              <folding>
-                <marker date="1522860093912" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1522860093912" expanded="false" signature="152:621" ph="..." />
-                <marker date="1522860093912" expanded="true" signature="1428:1857" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="1943:1950" ph="{}" />
-                <marker date="1522860093912" expanded="false" signature="2006:2017" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="2057:2063" ph=" }" />
-                <marker date="1522860093912" expanded="false" signature="2104:2115" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="2176:2182" ph=" }" />
-                <marker date="1522860093912" expanded="true" signature="2232:2594" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="2650:3023" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="3074:3335" ph="{...}" />
-                <marker date="1522860093912" expanded="false" signature="3377:3388" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="3450:3456" ph=" }" />
-                <marker date="1522860093912" expanded="true" signature="3507:3905" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="3962:4337" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="4394:4971" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="5027:5223" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="5276:5606" ph="{...}" />
-                <marker date="1522860093912" expanded="false" signature="5662:5673" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="5701:5707" ph=" }" />
-                <marker date="1522860093912" expanded="true" signature="5763:6774" ph="{...}" />
-                <marker date="1522860093912" expanded="false" signature="6001:6116" ph="getSystemAttribute(attributeName) → {" />
-                <marker date="1522860093912" expanded="false" signature="6720:6743" ph="}" />
-                <marker date="1522860093912" expanded="false" signature="6820:6831" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="6887:6893" ph=" }" />
-                <marker date="1522860093912" expanded="true" signature="6948:7782" ph="{...}" />
-                <marker date="1522860093912" expanded="false" signature="7074:7185" ph="getSystemAttribute(attributeName) → {" />
-                <marker date="1522860093912" expanded="false" signature="7746:7765" ph="}" />
-                <marker date="1522860093912" expanded="true" signature="7838:8758" ph="{...}" />
-                <marker date="1522860093912" expanded="false" signature="8823:8834" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="8886:8892" ph=" }" />
-                <marker date="1522860093912" expanded="true" signature="8980:9058" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="9123:9201" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="9266:9344" ph="{...}" />
-                <marker date="1522860093912" expanded="false" signature="9402:9413" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="9469:9475" ph=" }" />
-                <marker date="1522860093912" expanded="true" signature="9579:9695" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="9765:9845" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="9934:10001" ph="{...}" />
-                <marker date="1522860093912" expanded="false" signature="10050:10061" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="10112:10118" ph=" }" />
-                <marker date="1522860093912" expanded="false" signature="10161:10172" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="10218:10224" ph=" }" />
-                <marker date="1522860093912" expanded="true" signature="10289:10365" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="10429:10503" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="10583:10671" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="10749:10830" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="10911:10981" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="11082:11164" ph="{...}" />
-                <marker date="1522860093912" expanded="false" signature="11216:11227" ph=" { " />
-                <marker date="1522860093912" expanded="false" signature="11282:11288" ph=" }" />
-                <marker date="1522860093912" expanded="true" signature="11381:11460" ph="{...}" />
-                <marker date="1522860093912" expanded="true" signature="11491:11692" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retailx-web/src/main/resources/application.properties">
+      <file leaf-file-name="chart.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/css/chart.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productDetails.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/product/productDetails.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="4466" column="1" lean-forward="false" selection-start-line="4466" selection-start-column="1" selection-end-line="4466" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -240,6 +298,15 @@
       <find>getClass</find>
       <find>RequestDispatcher</find>
       <find>products.js</find>
+      <find>for</find>
+      <find>commoncon</find>
+      <find>image</find>
+      <find>card</find>
+      <find>code</find>
+      <find>RequestDi</find>
+      <find>.card-header</find>
+      <find>.card</find>
+      <find>upg</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -261,19 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/retailx-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/configuration/HibernateConfiguration.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/CommonDaoImpl.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/CommonDao.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/configuration/AppInitializer.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/configuration/AppConfig.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/ControllerServlet.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/PersistableObject.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/BaseObject.java" />
@@ -282,36 +336,49 @@
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Invoice.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Item.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Payment.java" />
-        <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Product.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Purchase.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Sale.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Supplier.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/User.java" />
         <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/UserSession.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper/EntityClassLoaderHelper.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/service/BaseService.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/service/AbstractService.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/dao/AbstractDao.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper.java" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java" />
-        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/java/ProductsController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.scala" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/Controller.java" />
-        <option value="$PROJECT_DIR$/retailx-application/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/retailx-application/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/com/retailx/config/PropertiesConfig.java" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/PropertiesConfig.java" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/DefaultUriBuilderFactory.java" />
-        <option value="$PROJECT_DIR$/retailx-web/pom.xml" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/HttpRequestUtil.java" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/retailx-web/pom.xml" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/HttpRequestUtil.java" />
+        <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/http/request/ReturnStub.java" />
         <option value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java" />
+        <option value="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Product.java" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/homePage.jsp" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/retailx-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/retailx-application/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/header.jsp" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/product/imports.jsp" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/imports.jsp" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/product/ProductsController.java" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/sidebar.jsp" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/product/productDetails.jsp" />
+        <option value="$PROJECT_DIR$/retailx-application/src/main/webapp/js/ajax-common.js" />
       </list>
     </option>
   </component>
@@ -347,12 +414,15 @@
     </treeState>
   </component>
   <component name="MavenRunner">
-    <option name="jreName" value="9.0" />
+    <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="131" />
     <option name="width" value="1271" />
     <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -369,7 +439,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,62 +450,25 @@
             <path>
               <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
               <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
               <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
               <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
               <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -443,66 +476,51 @@
             <path>
               <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
               <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
+              <item name="retailx-application" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="retailx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="retailx" type="462c0819:PsiDirectoryNode" />
-              <item name="retailx-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/retailx-web/src/main/java/com/retailx" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/retailx-application/src/main/java" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Scala" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.retailx.spring.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\retailx\retailx-application\src\main\webapp" />
+      <recent name="D:\IdeaProjects\retailx\retailx-application\src\main\webapp\WEB-INF" />
+      <recent name="D:\IdeaProjects\retailx\retailx-application\src\main\webapp\css" />
+      <recent name="$PROJECT_DIR$/retailx-web/src/main" />
+      <recent name="$PROJECT_DIR$/retailx-application/src/main/resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.retailx.http.request" />
       <recent name="com.retailx.config" />
       <recent name="com.retailx.product" />
       <recent name="com.retailx.entity" />
       <recent name="com.retailx.loaders.EntityClassLoaderHelper" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/retailx-web/src/main" />
-      <recent name="$PROJECT_DIR$/retailx-application/src/main/resources" />
-      <recent name="$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity" />
-      <recent name="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/user" />
-      <recent name="$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/service" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\retailx\retailx-application\src\main\webapp\css" />
+      <recent name="D:\IdeaProjects\retailx\retailx-application\src\main\webapp\WEB-INF\views" />
       <recent name="$PROJECT_DIR$/retailx-entity/src/main/java" />
       <recent name="$PROJECT_DIR$/retailx-entity/src" />
     </key>
@@ -519,7 +537,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.retail-web">
+  <component name="RunManager" selected="Maven.retail-application">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -564,7 +582,21 @@
     <configuration name="retail-application" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="1.8" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="profiles">
@@ -574,7 +606,7 @@
               <list>
                 <option value="clean" />
                 <option value="install" />
-                <option value="tomcat:run" />
+                <option value="tomcat7:run" />
                 <option value="-Dmaven.tomcat.port=9050" />
               </list>
             </option>
@@ -689,6 +721,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -730,16 +763,16 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39542484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3952756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32283464" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20937042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -762,16 +795,22 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/HttpRequestUtil.java</url>
+          <url>file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/config/HttpRequestUtil.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/http/request/ReturnStub.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="18" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="MavenRunConfiguration">
@@ -813,99 +852,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/ControllerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/web/util/UrlPathHelper.class" />
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="134" column="26" lean-forward="false" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Invoice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="141" column="25" lean-forward="false" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Sale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/UserSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="151" column="5" lean-forward="true" selection-start-line="148" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="74" column="26" lean-forward="false" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/PersistableObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/lang/Class.class" />
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/framework/session/HttpSessionWrapperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/BaseObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -985,21 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1014,19 +945,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/controller-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,14 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,198 +978,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4709">
           <caret line="318" column="35" lean-forward="false" selection-start-line="318" selection-start-column="35" selection-end-line="318" selection-end-column="35" />
-          <folding>
-            <marker date="1522860125259" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522860125259" expanded="false" signature="154:2065" ph="..." />
-            <marker date="1522860125259" expanded="true" signature="3185:4415" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="4482:4553" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="4628:4960" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="5048:5316" ph="{...}" />
-            <marker date="1522860125259" expanded="false" signature="5381:5392" ph=" { " />
-            <marker date="1522860125259" expanded="false" signature="5422:5428" ph=" }" />
-            <marker date="1522860125259" expanded="true" signature="5497:5619" ph="{...}" />
-            <marker date="1522860125259" expanded="false" signature="5670:5681" ph=" { " />
-            <marker date="1522860125259" expanded="false" signature="5706:5712" ph=" }" />
-            <marker date="1522860125259" expanded="true" signature="5830:6189" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="6312:6666" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="6757:7092" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="7226:7548" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="7687:8009" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="8116:8424" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="8527:8670" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="8778:8916" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="8992:9111" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="9223:9479" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="9596:9852" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="9937:10179" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="10314:10674" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="10814:11169" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="11277:11600" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="11751:12074" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="12230:12553" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="12677:12986" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="13087:13279" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="13385:13572" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="13646:13814" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="13902:14027" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="14120:14240" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="14301:14402" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="14510:14782" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="14895:15162" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="15243:15491" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="15669:15989" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="16172:16492" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="16643:16949" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="17148:17496" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="17700:18048" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="18220:18554" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="18680:19099" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="19246:19693" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="19875:20035" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="20222:20382" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="20537:20624" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="20784:21937" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="22031:22350" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="22465:22860" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="22947:23029" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="23104:23183" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="23277:23370" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="23470:23556" ph="{...}" />
-            <marker date="1522860125259" expanded="false" signature="23621:23632" ph=" { " />
-            <marker date="1522860125259" expanded="false" signature="23661:23667" ph=" }" />
-            <marker date="1522860125259" expanded="true" signature="23753:23949" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="23790:23801" ph="{}" />
-            <marker date="1522860125259" expanded="true" signature="23890:23943" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="24052:24936" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="24186:24496" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="24591:24930" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="25031:28064" ph="{...}" />
-            <marker date="1522860125259" expanded="false" signature="25146:25161" ph=" { " />
-            <marker date="1522860125259" expanded="false" signature="25191:25201" ph=" }" />
-            <marker date="1522860125259" expanded="true" signature="25284:25652" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="25738:28058" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="28139:30839" ph="{...}" />
-            <marker date="1522860125259" expanded="false" signature="28245:28260" ph=" { " />
-            <marker date="1522860125259" expanded="false" signature="28293:28303" ph=" }" />
-            <marker date="1522860125259" expanded="true" signature="28385:30090" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="30189:30833" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/config/ApplicationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="132" column="5" lean-forward="false" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-          <folding>
-            <element signature="e#3324#3325#0" expanded="true" />
-            <element signature="e#3358#3359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="1955">
           <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding>
-            <marker date="1522860125259" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522860125259" expanded="false" signature="162:720" ph="..." />
-            <marker date="1522860125259" expanded="false" signature="1113:1124" ph=" { " />
-            <marker date="1522860125259" expanded="false" signature="1144:1150" ph=" }" />
-            <marker date="1522860125259" expanded="false" signature="1214:1225" ph=" { " />
-            <marker date="1522860125259" expanded="false" signature="1246:1252" ph=" }" />
-            <marker date="1522860125259" expanded="true" signature="1374:1430" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="1509:1568" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="1678:1737" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="1831:1902" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="2048:2752" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="2902:4254" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="4336:4562" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="4625:4961" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="5057:5515" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="5576:6653" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="6738:7343" ph="{...}" />
-            <marker date="1522860125259" expanded="true" signature="7429:8003" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.1.RELEASE/spring-core-4.1.1.RELEASE.jar!/org/springframework/core/env/AbstractEnvironment.class">
+    <entry file="file://$PROJECT_DIR$/retailx-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="290" column="0" lean-forward="false" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-          <folding>
-            <marker date="1522860093912" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522860093912" expanded="false" signature="152:621" ph="..." />
-            <marker date="1522860093912" expanded="true" signature="1428:1857" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="1943:1950" ph="{}" />
-            <marker date="1522860093912" expanded="false" signature="2006:2017" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="2057:2063" ph=" }" />
-            <marker date="1522860093912" expanded="false" signature="2104:2115" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="2176:2182" ph=" }" />
-            <marker date="1522860093912" expanded="true" signature="2232:2594" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="2650:3023" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="3074:3335" ph="{...}" />
-            <marker date="1522860093912" expanded="false" signature="3377:3388" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="3450:3456" ph=" }" />
-            <marker date="1522860093912" expanded="true" signature="3507:3905" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="3962:4337" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="4394:4971" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="5027:5223" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="5276:5606" ph="{...}" />
-            <marker date="1522860093912" expanded="false" signature="5662:5673" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="5701:5707" ph=" }" />
-            <marker date="1522860093912" expanded="true" signature="5763:6774" ph="{...}" />
-            <marker date="1522860093912" expanded="false" signature="6001:6116" ph="getSystemAttribute(attributeName) → {" />
-            <marker date="1522860093912" expanded="false" signature="6720:6743" ph="}" />
-            <marker date="1522860093912" expanded="false" signature="6820:6831" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="6887:6893" ph=" }" />
-            <marker date="1522860093912" expanded="true" signature="6948:7782" ph="{...}" />
-            <marker date="1522860093912" expanded="false" signature="7074:7185" ph="getSystemAttribute(attributeName) → {" />
-            <marker date="1522860093912" expanded="false" signature="7746:7765" ph="}" />
-            <marker date="1522860093912" expanded="true" signature="7838:8758" ph="{...}" />
-            <marker date="1522860093912" expanded="false" signature="8823:8834" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="8886:8892" ph=" }" />
-            <marker date="1522860093912" expanded="true" signature="8980:9058" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="9123:9201" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="9266:9344" ph="{...}" />
-            <marker date="1522860093912" expanded="false" signature="9402:9413" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="9469:9475" ph=" }" />
-            <marker date="1522860093912" expanded="true" signature="9579:9695" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="9765:9845" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="9934:10001" ph="{...}" />
-            <marker date="1522860093912" expanded="false" signature="10050:10061" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="10112:10118" ph=" }" />
-            <marker date="1522860093912" expanded="false" signature="10161:10172" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="10218:10224" ph=" }" />
-            <marker date="1522860093912" expanded="true" signature="10289:10365" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="10429:10503" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="10583:10671" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="10749:10830" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="10911:10981" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="11082:11164" ph="{...}" />
-            <marker date="1522860093912" expanded="false" signature="11216:11227" ph=" { " />
-            <marker date="1522860093912" expanded="false" signature="11282:11288" ph=" }" />
-            <marker date="1522860093912" expanded="true" signature="11381:11460" ph="{...}" />
-            <marker date="1522860093912" expanded="true" signature="11491:11692" ph="{...}" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1264,51 +1006,232 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/HttpRequestUtil.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.1.1.RELEASE/spring-core-4.1.1.RELEASE.jar!/org/springframework/core/env/AbstractEnvironment.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="4318">
+          <caret line="290" column="0" lean-forward="false" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/product/allProducts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3145">
+          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/config/HttpRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/loaders/EntityClassLoaderHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="142">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/product/ProductsController.java">
+    <entry file="file://$PROJECT_DIR$/retailx-application/retailx-application.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-entity/src/main/java/com/retailx/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/servlet/RequestDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/spring/controller/CommonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/com/retailx/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" column="38" lean-forward="false" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4352">
+          <caret line="256" column="32" lean-forward="false" selection-start-line="256" selection-start-column="32" selection-end-line="256" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42415">
+          <caret line="2495" column="1" lean-forward="false" selection-start-line="2495" selection-start-column="1" selection-end-line="2495" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/css/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/imports.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/css/chart.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5474">
+          <caret line="322" column="9" lean-forward="false" selection-start-line="322" selection-start-column="9" selection-end-line="322" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/http/request/ReturnStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="78" column="18" lean-forward="false" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1595#1596#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/java/com/retailx/product/ProductsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/java/com/retailx/config/ApplicationConfig.java">
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="227">
+          <caret line="4466" column="1" lean-forward="false" selection-start-line="4466" selection-start-column="1" selection-end-line="4466" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retailx-web/src/main/webapp/WEB-INF/views/product/allProducts.jsp">
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/sidebar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="306">
+          <caret line="54" column="71" lean-forward="false" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/WEB-INF/views/product/productDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retailx-application/src/main/webapp/js/ajax-common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1365,7 +1288,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>retail</last-edited>
+          <last-edited>retailx-application</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

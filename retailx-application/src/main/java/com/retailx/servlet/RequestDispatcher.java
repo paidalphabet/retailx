@@ -20,6 +20,7 @@ public class RequestDispatcher implements Filter {
            String requestURI = request.getRequestURI();
            String applicationName = request.getContextPath();
            String path = request.getServletPath();
+           path = path.replaceAll("/data/", "");
            Class className = getClassFromPath(path);
            if(className != null) {
                request.setAttribute("class", className);
