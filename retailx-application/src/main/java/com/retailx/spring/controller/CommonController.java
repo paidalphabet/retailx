@@ -3,12 +3,14 @@ package com.retailx.spring.controller;
 import com.retailx.entity.BaseObject;
 import com.retailx.entity.PersistableObject;
 import com.retailx.service.UserService;
+import com.retailx.servlet.HttpServletRequestDelegate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
@@ -39,6 +41,12 @@ public class CommonController<BaseObject> extends  BaseController{
     private void validateResponse(HttpServletRequest request) {
         Class clazz = (Class) request.getAttribute("class");
         Assert.notNull(clazz);
+    }
+
+    @RequestMapping(value = "/common/", method= RequestMethod.POST)
+    public ResponseEntity<List<PersistableObject>> addPersistableObject(HttpServletRequest request, HttpServletResponse response){
+        return HttpServletRequestDelegate.getInstance().processHttpRequest(request, response);
+        //return  new ResponseEntity<List<PersistableObject>>((List<PersistableObject>) null, HttpStatus.OK);
     }
 
 

@@ -11,7 +11,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-12">
-				<form action = "" id = "add-product">
+				<form action = "/data/product/" id = "add-product">
 					<div class="card">
 						<div class="card-header">
 							<div class="card-title">
@@ -39,7 +39,7 @@
 											</div>
 											<div class="form-group">
 												<label for="tax_method">Tax Method</label>
-												<select name="tax_method" class="form-control tip select2 select2-hidden-accessible" id="tax_method" required="required" style="width:100%;" data-fv-field="tax_method" tabindex="-1" aria-hidden="true">
+												<select name="taxMethod" class="form-control tip select2 select2-hidden-accessible" id="tax_method" required="required" style="width:100%;" data-fv-field="tax_method" tabindex="-1" aria-hidden="true">
 													<option value="Inclusive">Inclusive</option>
 													<option value="Exclusive">Exclusive</option>
 												</select>
@@ -79,7 +79,7 @@
 												<div class="row">
 													<div class="col-sm-2">
 														<div class="form-group">
-															<button class="btn btn-success" onclick="submitForm('add-product')">Save</button>
+															<button class="btn btn-success" onclick="submitForm('add-product', '/data/product/', event)">Save</button>
 														</div>
 													</div>
 												</div>
